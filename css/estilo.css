@@ -1,0 +1,62 @@
+/* Minha folha de estilo */
+
+#secao_1{
+    height: 1150PX;
+    background-color: #000;
+    background-image: url(../img/bg_s1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#secao_3{
+    height: 1090PX;
+    background-color: #000;
+    background-image: url(../img/bg_s5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#secao_5{
+    height: 460PX;
+    background-color: #1C1C1C;
+}
+
+#secao_2,#secao_4,#secao_6,{
+    background-color: white; 
+}
+
+nav{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: scriptin;
+    src: url(SCRIPTIN.ttf);
+    src: url(SCRIPTIN.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: SCRIPTIN;
+}
+
+.sombra{
+	text-shadow: 1px 1px 1px #111;
+}
+
+/*.fonte{
+    font-family: inherit;
+}*/
+
+.arredondado {
+	border-radius: 50px;
+}
+
+
+.btn-icon {
+	padding: 8px;
+	background: #ffffff;
+}
+    
